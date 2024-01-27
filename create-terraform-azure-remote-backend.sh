@@ -61,6 +61,7 @@ STORAGE_ACCOUNT_NAME=${STORAGE_ACCOUNT_NAME:-"stguniquename001"}
 CONTAINER_NAME=${CONTAINER_NAME:-"tfstate"}
 KEY_NAME=${KEY_NAME:-"terraform.tfstate"}
 
+
 if [[ "$LOWER_CASE_RESPONSE" == "yes" || "$LOWER_CASE_RESPONSE" == "y" ]]; then
 
   printf "#######################################################################\n"
